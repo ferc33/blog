@@ -13,7 +13,7 @@ CABECERA
 				
 				<a href="<?php echo $blog["dominio"]; ?>">
 					
-					<img src="<?php echo $blog["dominio"];?><?php echo $blog["logo"]; ?>" alt="Abri la concha de tu hermana" class="img-fluid logotipo">
+					<img src="<?php echo $blog["dominio"];?><?php echo $blog["logo"]; ?>" alt="ABRI PORFAVOR " class="img-fluid logotipo">
 
 				</a>
 

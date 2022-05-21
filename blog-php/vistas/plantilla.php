@@ -190,7 +190,7 @@ $totalPaginas = ceil(count($totalArticulos)/5);
 	}	 
 
 	?>
-
+										<!--localhost/08.MYSQL-BLOG(dominio esta en la base de datos)-->
 	<link rel="icon" href="<?php echo $blog["dominio"];?>vistas/img/icono.jpg">
 
 	<!--=====================================
