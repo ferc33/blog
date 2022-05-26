@@ -12,9 +12,9 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+//RUTA DE INICIO
 Route::get('/', function () {
-    return view('welcome');
+    return view('plantilla');//nombre de la pagina principal welcome.blade ubicada en /resources/view
 });
 
 Route::get('/dashboard', function () {

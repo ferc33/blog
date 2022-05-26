@@ -4,14 +4,45 @@
             {{ __('Dashboard') }}
         </h2>
     </x-slot>
+    <div class="btn-group">
+  
+     <!--=====================================
+    CONTENIDO
+    ======================================-->
 
-    <div class="py-12">
-        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-            <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
-                <div class="p-6 bg-white border-b border-gray-200">
-                    You're logged in!
-                </div>
-            </div>
+    <div class="container-fluid">        
+        <div class="container py-5">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Firstname</th>
+                        <th>Lastname</th>
+                        <th>Email</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>John</td>
+                        <td>Doe</td>
+                        <td>john@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>Mary</td>
+                        <td>Moe</td>
+                        <td>mary@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>July</td>
+                        <td>Dooley</td>
+                        <td>july@example.com</td>
+                    </tr>
+                </tbody>
+            </table>
+
         </div>
+
     </div>
+
+
+
 </x-app-layout>
