@@ -16,6 +16,15 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('plantilla');//nombre de la pagina principal welcome.blade ubicada en /resources/view
 });
+// RUTAS DE ACCESO /VIEW/PAGINAS/
+Route::view('/','paginas.blog');
+Route::view('/administradores' ,'paginas.administradores');
+Route::view('/categorias','paginas.categorias');
+Route::view('/articulos','paginas.articulos');
+Route::view('/opiniones','paginas.opiniones');
+Route::view('/banner','paginas.banner');
+Route::view('/anuncios','paginas.anuncios');
+
 
 Route::get('/dashboard', function () {
     return view('dashboard');

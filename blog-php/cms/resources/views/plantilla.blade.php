@@ -37,7 +37,7 @@
 			@include('modulos.header')
 			@include('modulos.sidebar')
 			@include('modulos.footer')	
-			@include('paginas.inicio')
+			@yield('content')
 		</div>
 		<h1>DashBoard</h1>
 

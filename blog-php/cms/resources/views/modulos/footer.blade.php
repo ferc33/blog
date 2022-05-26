@@ -8,5 +8,5 @@
 	echo date("Y");
 @endphp
 
-<a href="{{ substr(url("/"),0,-11) }}">Fernando C.</a>.</strong>
+<a href="{{ substr(url("/"),0,-11) }}">Fernando Cassera.</a>.</strong>
 </footer>

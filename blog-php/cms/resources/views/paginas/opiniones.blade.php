@@ -1,14 +1,20 @@
+@extends('plantilla')
+@section('content')
+
 <main class="content-wrapper">
+<section class="content-header">
+  
+
         <div class="content-header">
           <div class="container-fluid">
             <div class="row mb-2">
               <div class="col-sm-6">
-                <div class="fs-3">Fixed Layout</div>
+                <div class="fs-3">Opiniones</div>
               </div>
               <div class="col-sm-6">
                 <ol class="breadcrumb float-sm-end">
-                  <li class="breadcrumb-item"><a href="#">Home</a></li>
-                  <li class="breadcrumb-item active" aria-current="page">Fixed Layout</li>
+                  <li class="breadcrumb-item"><a href="{{url('/')}}">Inicio</a></li>
+                  <li class="breadcrumb-item active">Opiniones </li>
                 </ol>
               </div>
             </div>
@@ -20,7 +26,7 @@
             <div class="row">
               <div class="col-12">
                 <!-- Default box -->
-                <div class="card">
+                <div class="card card-primary card-outline">
                   <div class="card-header">
                     <h3 class="card-title">Title</h3>
                     <div class="card-tools">
@@ -46,8 +52,9 @@
             </div>
             <!-- /.row -->
           </div><!-- /.container-fluid -->
-        </div>
+
+      </section>
         <!-- /.content -->
       </main>
-
+@endsection
       
