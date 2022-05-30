@@ -2,9 +2,6 @@
 @section('content')
 
 <main class="content-wrapper">
-<section class="content-header">
-  
-
         <div class="content-header">
           <div class="container-fluid">
             <div class="row mb-2">
@@ -39,7 +36,9 @@
                     </div>
                   </div>
                   <div class="card-body">
-                    Start creating your amazing application!
+                    @foreach ($categorias as $element) {{-- Trae los elementos de la tabla categorias --}}
+                      {{ $element }}
+                    @endforeach
                   </div>
                   <!-- /.card-body -->
                   <div class="card-footer">
@@ -53,7 +52,7 @@
             <!-- /.row -->
           </div><!-- /.container-fluid -->
 
-      </section>
+ 
         <!-- /.content -->
       </main>
 @endsection

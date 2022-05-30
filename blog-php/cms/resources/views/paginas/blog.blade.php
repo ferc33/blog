@@ -38,9 +38,10 @@
                       </button>
                     </div>
                   </div>
+                  {{-- trae los valores que obtiene $blog en BlogController.php--}}
                   <div class="card-body">
                     @foreach ($blog as $element)
-                      {{$element}}
+                      {{$element['dominio']}} {{-- obtenemos la columna dominio de la tabla blog --}}
                     @endforeach
                   </div>
                   <!-- /.card-body -->

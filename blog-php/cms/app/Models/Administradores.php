@@ -5,7 +5,11 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
+
 class Administradores extends Model
 {
+
+   protected $table = 'users'; //NOMBRE DE TABLA DE BASE DE DATOS
+
     use HasFactory;
 }
